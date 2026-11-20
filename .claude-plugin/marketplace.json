@@ -1,0 +1,11 @@
+{
+  "name": "deaddrop",
+  "owner": { "name": "Ces107" },
+  "plugins": [
+    {
+      "name": "deaddrop",
+      "source": "./",
+      "description": "Encrypted shared mailboxes between Claude Code sessions, keyed by a code you share with a teammate."
+    }
+  ]
+}

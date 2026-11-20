@@ -1,0 +1,16 @@
+{
+  "name": "deaddrop",
+  "version": "0.1.0",
+  "description": "Encrypted shared mailboxes between Claude Code sessions: share a code with a teammate, and your Claudes can leave each other messages and files.",
+  "author": { "name": "Ces107", "url": "https://github.com/Ces107" },
+  "homepage": "https://github.com/Ces107/deaddrop",
+  "repository": "https://github.com/Ces107/deaddrop",
+  "license": "MIT",
+  "keywords": ["messaging", "collaboration", "mailbox", "team", "e2e-encryption", "mcp"],
+  "mcpServers": {
+    "deaddrop": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/bin/deaddrop.mjs", "mcp"]
+    }
+  }
+}
